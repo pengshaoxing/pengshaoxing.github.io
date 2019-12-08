@@ -5,13 +5,15 @@ node_js:
 cache: npm
 branches:
   only:
-    - master # build master branch only
+    - hexo # build master branch only
 script:
   - hexo generate # generate static files
 deploy:
   provider: pages
   skip-cleanup: true
+  local-dir: public
   github-token: $GH_TOKEN
+  target-branch: master
   keep-history: true
   on:
     branch: hexo
