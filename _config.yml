@@ -8,7 +8,7 @@ subtitle: ''
 description: ''
 keywords:
 author: psx
-language: en
+language: cn
 timezone: ''
 
 # URL
@@ -90,7 +90,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: icarus
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
