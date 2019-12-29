@@ -47,6 +47,7 @@
     {{- __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'})) }}
     {%- if theme.footer.powered.version %} v{{ hexo_version }}{%- endif %}
   </div>
+  <a href="http://www.miitbeian.gov.cn/">粤ICP备18099550号</a> 
 {%- endif %}
 
 {%- if theme.footer.powered.enable and theme.footer.theme.enable %}
@@ -68,7 +69,6 @@
   <div class="addthis_inline_share_toolbox">
     <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ theme.add_this_id }}" async="async"></script>
   </div>
-<a href="http://www.miitbeian.gov.cn/">粤ICP备18099550号</a> 
 {%- endif %}
 
 {{- next_inject('footer') }}
